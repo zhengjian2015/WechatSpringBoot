@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14f2e4fb-e886-4345-ad85-81ed5a2b4ca3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/imooc/demo/dao/AreaDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/demo/dao/AreaDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/demo/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/demo/Hello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/demo/SpringApplications.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/demo/SpringApplications.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/demo/config/dao/DataSourceConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/demo/config/dao/DataSourceConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/demo/config/dao/SessionFactoryConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/demo/config/dao/SessionFactoryConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/demo/dao/AreaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/demo/dao/AreaDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/demo/entity/Area.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/demo/entity/Area.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/demo/dao/AreaDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/imooc/demo/dao/AreaDaoTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,7 +34,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="41" />
+          <entry key="gitignore" value="43" />
           <entry key="java" value="1338" />
           <entry key="properties" value="121" />
           <entry key="xml" value="322" />
@@ -50,7 +43,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1338" />
-          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="PLAIN_TEXT" value="43" />
           <entry key="Properties" value="121" />
           <entry key="XML" value="322" />
         </counts>
@@ -145,10 +138,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/demo/dao/AreaDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="95">
               <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -157,11 +150,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -222,8 +215,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/demo/entity/Area.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/com/imooc/demo/dao/AreaDaoTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -331,7 +324,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537806485873" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537806766254" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -462,12 +455,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32765958" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32765958" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3148936" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3148936" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -634,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/demo/config/dao/SessionFactoryConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
@@ -663,11 +649,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/demo/dao/AreaDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="95">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
