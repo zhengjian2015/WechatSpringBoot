@@ -1,12 +1,13 @@
 package com.imooc.demo.dao;
 
 import com.imooc.demo.entity.Area;
+import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.web.WebAppConfiguration;
+
 
 import java.util.List;
 
@@ -21,10 +22,41 @@ public class AreaDaoTest {
 
     @Autowired
     private AreaDao areaDao;
+
     @Test
-    public void queryArea() {
+    public void queryArea1() {
         List<Area> list = areaDao.queryArea();
-        System.out.println("******");
-        System.out.println(list);
+        //System.out.println("******");
+        //System.out.println(list);
+        TestCase.assertEquals(1,list.size());
+    }
+
+    @Test
+    public void queryAreaById() {
+        Area area = areaDao.queryAreaById(1);
+        TestCase.assertEquals("东苑",area.getAreaName());
+    }
+
+    @Test
+    public void insertArea() {
+        Area area = new Area();
+        area.setAreaName("南苑");
+        area.setPriority(1);
+        int efeectNum = areaDao.insertArea(area);
+        TestCase.assertEquals(1,efeectNum);
+    }
+
+    @Test
+    public void updateArea() {
+        Area area = new Area();
+        area.setAreaName("东苑");
+        area.setPriority(3);
+        area.setLastEditTime(new Date());
+        int efeectNum = areaDao.updateArea(area);
+        TestCase.assertEquals(1,efeectNum);
+    }
+
+    @Test
+    public void deleteArea() {
     }
 }
