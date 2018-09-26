@@ -4,11 +4,13 @@ import com.imooc.demo.dao.AreaDao;
 import com.imooc.demo.entity.Area;
 import com.imooc.demo.service.AreaService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 import java.util.List;
 
+@Service
 public class AreaServiceImpl implements AreaService {
     @Autowired
     private AreaDao areaDao;
@@ -19,6 +21,7 @@ public class AreaServiceImpl implements AreaService {
 
     @Override
     public Area getAreaById(int areaId) {
+        int b = 1/0;
         return areaDao.queryAreaById(areaId);
     }
 
@@ -43,7 +46,7 @@ public class AreaServiceImpl implements AreaService {
         }
     }
 
-
+    @Transactional
     @Override
     public boolean updateArea(Area area) {
         if (area.getAreaId() != null && area.getAreaId()>0) {
@@ -63,6 +66,7 @@ public class AreaServiceImpl implements AreaService {
         }
     }
 
+    @Transactional
     @Override
     public boolean deleteArea(int areaId) {
         if (areaId > 0) {
