@@ -21,7 +21,6 @@ public class AreaServiceImpl implements AreaService {
 
     @Override
     public Area getAreaById(int areaId) {
-        int b = 1/0;
         return areaDao.queryAreaById(areaId);
     }
 
