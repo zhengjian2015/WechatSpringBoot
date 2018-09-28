@@ -27,8 +27,8 @@ public class AreaDaoTest {
     @Test
     public void queryArea1() {
         List<Area> list = areaDao.queryArea();
-        //System.out.println("******");
-        //System.out.println(list);
+        System.out.println("******");
+        System.out.println(list);
         TestCase.assertEquals(1,list.size());
     }
 
