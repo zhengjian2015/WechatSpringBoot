@@ -9,7 +9,7 @@ Page({
     areaName: "",
     priority: "",
     addUrl: "http://127.0.0.1:8082/superadmin/addarea",
-    modifyUrl: "http://127.0.0.1:8082/superadmin/modifyarea"
+    modifyUrl: "http://127.0.0.1:8082/superadmin/modiarea"
   },
 
   /**

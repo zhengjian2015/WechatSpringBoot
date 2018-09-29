@@ -6,10 +6,10 @@
     <text class="column">优先级</text>
     <text class="link-column">操作</text>
   </view>
-  //向下滚动
+  <!--向下滚动-->
   <scroll-view scroll-y="true">
     <view>
-      //循环
+      <!--循环-->
       <block wx:for="{{list}}">
         <view class="widget">
           <text class="column">{{item.areaId}}</text>
